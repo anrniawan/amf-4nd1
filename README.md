@@ -1,5 +1,5 @@
 $ pkg update && upgrade  
-$ termux-setup-storage  
+
 $ pkg install python  
 $ pkg install git  
 $ pip install bs4  
