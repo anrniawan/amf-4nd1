@@ -70,7 +70,7 @@ class awokawokawok:
 		print("\033[0;34m╠═\033[0;31mO.\033[4;33mCRACK DARI PENCARIAN NAMA")
 		print("\033[0;34m╠═\033[0;31mP.\033[4;33mCRACK DARI TEMAN TARGET")
 		print("\033[0;34m╠═\033[0;31mS.\033[4;33mCRACK DARI PERMINTAAN PERTEMANAN")
-		print("\033[0;34m╠═\033[0;31mP.\033[4;33mCRACK DARI LIKE POST")
+		print("\033[0;34m╠═\033[0;31mG.\033[4;33mCRACK DARI LIKE POST")
 		print("\033[0;34m╠═\033[0;31mU.\033[0;31mHAPUS COOKIE")
 		print("\033[0;34m╠═\033[0;31mH.\033[0;31mLAPORKAN MASALAH")
 		print("\033[0;34m╠═\033[0;31mV.\033[0;31mATUR UA")
@@ -164,7 +164,7 @@ class awokawokawok:
 				kembali("\033[0;32m╚═TIDAK ADA PERMINTAAN PERTEMANAN",self.main_menu)
 			loBosku=takeuser.request(respon)
 			
-		elif pilih in ("p","P"):
+		elif pilih in ("g","G"):
 			user=input("\033[0;32m╠═ID POST\033[0;34m⋙")
 			while user in (""," "):
 				print("╠═ID POST INGGAN KOSONG")
